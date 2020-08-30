@@ -1,5 +1,5 @@
        FROM ubuntu:latest 
- MAINTAINER Tyler Voll <tylervollbooks@gmail.com>
+ MAINTAINER Bryan Veloso <bryan@avalonstar.com>
         ENV DEBIAN_FRONTEND noninteractive
        USER root
         ENV HOME /root
@@ -71,7 +71,7 @@
      EXPOSE 80 443 3306 5121 6121 6900
      VOLUME /datastore/
      VOLUME /etc/apache2/
-     VOLUME /atc/mysql/
+     VOLUME /etc/mysql/
      VOLUME /usr/bin/rathena/
      VOLUME /var/lib/mysql/
      VOLUME /var/www/html/
